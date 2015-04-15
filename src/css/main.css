@@ -4,6 +4,11 @@ body {
   background-color: lightblue;
 }
 
+h3 {
+font-family: 'Corben', Georgia, Times, serif;
+	
+}
+
 .top_section {
   border-radius: 25px 25px 0 0;
 }
