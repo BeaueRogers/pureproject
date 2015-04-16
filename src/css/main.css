@@ -25,13 +25,27 @@ font-family: 'Corben', Georgia, Times, serif;
   background-color: white;
 }
 
-/* Navigation Styles */
+/* Navigation */
 
+ul  {
+  display: inline-block;
+  background-color: pink;
+
+
+} 
 
 .pure-u-1-2 li {
-  display: inline;
+  
+  float: right;
 }
+
+.pure-u-1-2 h3 {
+  float: right;
+
+}
+
 .navbar_and_search li {
+
   display: inline;
   padding-left: 50px;
   float: left;
@@ -46,18 +60,9 @@ font-family: 'Corben', Georgia, Times, serif;
   
 }
 
-input[type=text] {
-  padding:5px; 
-  border:2px solid #ccc; 
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
-  border-color: #E65A88;
-  color: #E65A88;
-}
-
 .navbar_and_search {
   background-color: pink;
-  height: 60px;
+  height: 40px;
 }
 
 /* Lower Styles */
