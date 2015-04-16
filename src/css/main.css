@@ -9,9 +9,18 @@ h3 {
   font-size: 1.3em;
 }
 
-h4 {
-  padding-left: 
+.right {
+  float: right;
 }
+
+
+.login h4 {
+  margin-bottom: 5px;
+  color: rgb(70,168,175);
+}
+
+
+
 p {
   font-family: 'Nobile', Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -19,6 +28,7 @@ p {
 }
 .top_section {
   border-radius: 25px 25px 0 0;
+  background-color: white;
 }
 
 .top_section > .pure-u-1-2 > img {
@@ -30,7 +40,7 @@ p {
 .pure-g {
   margin: 0 auto;
   width: 80%;
-  background-color: white;
+
 }
 
 /* Navigation */
@@ -40,13 +50,17 @@ ul  {
   letter-spacing: 1px;
   padding-right: 100px;
   
+  
+}
+
+.topnav {
+  margin-top: 68px;
 }
 
 
  h3 {
   display: block;
   letter-spacing: 1px;
-  padding-left: 525px;
   font-size: small;
   color: lightblue;
 }
