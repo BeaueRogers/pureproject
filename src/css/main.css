@@ -30,13 +30,12 @@ font-family: 'Corben', Georgia, Times, serif;
 
 .pure-u-1-2 li {
   display: inline;
-  padding-left: 50px
-    
 }
 .navbar_and_search li {
   display: inline;
   padding-left: 50px;
   float: left;
+
 }
 
 .search {
