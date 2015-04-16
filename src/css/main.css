@@ -29,17 +29,29 @@ p {
   background-color: white;
 }
 
-/* Navigation Styles */
+/* Navigation */
 
+ul  {
+  display: inline-block;
+  background-color: pink;
+
+
+} 
 
 .pure-u-1-2 li {
-  display: inline;
-<<<<<<< HEAD
-  padding-left: 50px
-=======
->>>>>>> 3760255c5038ce6b582c7b19bd68ab6a1903d1f4
+
+   display: inline;
+   padding-left: 50px
 }
+
+.pure-u-1-2 h3 {
+  float: right;
+
+>>>>>>> catesbranch
+}
+
 .navbar_and_search li {
+
   display: inline;
   padding-left: 50px;
   float: left;
@@ -52,23 +64,11 @@ p {
   margin-top: -5px;
 }
 
-input[type=text] {
-  padding:5px; 
-  border:2px solid #ccc; 
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
-  border-color: #E65A88;
-  color: #E65A88;
-}
-
 .navbar_and_search {
   background-color: pink;
-<<<<<<< HEAD
+
   height: 40px;
   font-family: 'Corben', Georgia, Times, serif;
-=======
-  height: 60px;
->>>>>>> 3760255c5038ce6b582c7b19bd68ab6a1903d1f4
 }
 
 /* Lower Styles */
