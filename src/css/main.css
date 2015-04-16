@@ -5,10 +5,14 @@ body {
 }
 
 h3 {
-font-family: 'Corben', Georgia, Times, serif;
-	
+  font-family: 'Corben', Georgia, Times, serif;
+  font-size: 1.3em;
 }
-
+p {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+}
 .top_section {
   border-radius: 25px 25px 0 0;
 }
@@ -31,7 +35,6 @@ font-family: 'Corben', Georgia, Times, serif;
 .pure-u-1-2 li {
   display: inline;
   padding-left: 50px
-    
 }
 .navbar_and_search li {
   display: inline;
@@ -43,13 +46,12 @@ font-family: 'Corben', Georgia, Times, serif;
   float: right;
   padding-right: 150px;
   margin-top: -5px;
-  
-  
 }
 
 .navbar_and_search {
   background-color: pink;
   height: 40px;
+  font-family: 'Corben', Georgia, Times, serif;
 }
 
 /* Lower Styles */
