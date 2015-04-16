@@ -8,6 +8,10 @@ h3 {
   font-family: 'Corben', Georgia, Times, serif;
   font-size: 1.3em;
 }
+
+h4 {
+  padding-left: 
+}
 p {
   font-family: 'Nobile', Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -32,22 +36,19 @@ p {
 /* Navigation */
 
 ul  {
-  display: inline-block;
-  background-color: pink;
-
-
-} 
-
-.pure-u-1-2 li {
-
-   display: inline;
-   padding-left: 50px
+  display: block;
+  letter-spacing: 1px;
+  padding-right: 100px;
+  
 }
 
-.pure-u-1-2 h3 {
-  float: right;
 
->>>>>>> catesbranch
+ h3 {
+  display: block;
+  letter-spacing: 1px;
+  padding-left: 525px;
+  font-size: small;
+  color: lightblue;
 }
 
 .navbar_and_search li {
@@ -66,7 +67,6 @@ ul  {
 
 .navbar_and_search {
   background-color: pink;
-
   height: 40px;
   font-family: 'Corben', Georgia, Times, serif;
 }
