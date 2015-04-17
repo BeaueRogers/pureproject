@@ -36,9 +36,9 @@ p {
   width: 80%;
 }
 
-.top_section > .pure-u-1-1 > .pure-u-1-2 > img {
-  padding-top: 20px;
-  padding-left: 20px;
+.top_section > .pure-u-1-2 > img {
+  padding-top: 40px;
+  padding-left: 40px;
   padding-bottom: 20px;
 }
 
@@ -77,14 +77,8 @@ ul  {
 .navbar_and_search > .nav_and_search_wrapper > ul > li {
   display: inline;
   padding-left: 15px;
-
 }
 
-.navbar_and_search > .nav_and_search_wrapper {
-  margin: 0 auto;
-  width: 80%;
-  background-color: red;
-}
 
 .search {
   float: right;
@@ -104,6 +98,12 @@ input[type="text"] {
   background-color: pink;
   height: 50px;
   font-family: 'Corben', Georgia, Times, serif;
+}
+
+
+.navbar_and_search > .nav_and_search_wrapper {
+  margin: 0 auto;
+  width: 80%;
 }
 
 /* Lower Styles */
